@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    background-color: rgb(36, 190, 36);
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul:hover {
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* Main titulo*/
+
+main section h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Main subtitulo */
+main section h2 {
+    font-size: 1.2rem;
+    margin: 10px 10px 20px 10px;
+}
+
+/* Texto de finalizacion de compra */
+#msg-compra {
+    color: rgb(47, 175, 47);
+    font-size: 1rem;
+    margin: 10px;
+}
+
+/* Button Bibloteca*/
+#btn-bibloteca {
+    background-color: rgb(42, 199, 52);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* Titulo bibloteca */
+#bibloteca-titulo {
+    display: none;
+    color:rgb(47, 175, 47);
+    font-size: 1rem;
+    margin: 10px;
+}
+
+/* Texto bibloteca */
+#juegos-bibloteca{
+    display: block;
+    font-size: 1rem;
+    margin: 10px;
+    color: rgb(162, 33, 33);
+}
+
+/* Comprar de nuevo button */
+
+#btn-comprar {
+    background-color: rgb(42, 199, 52);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
