@@ -95,7 +95,7 @@ function finalizarCompra(){
     switch (comprarJuego) {
         case 1:
             comprarJuego = juego1.titulo
-            alert(`¡Felecidades por tu nuevo juego "${juego1.titulo}"!`)
+            alert(`¡Felecidades por tu nuevo juego "${juego1.titulo}" !`)
             // mensaje de juego añadido a bibloteca
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego1.titulo}" ah sido añadido a su bibloteca`
             // Pusheamos el juego a la array
@@ -103,37 +103,37 @@ function finalizarCompra(){
             break;
         case 2:
             comprarJuego = juego2.titulo
-            alert(`¡Felecidades tu juego "${juego2.titulo}" ah sido comprado con exito!`)
+            alert(`¡Felecidades por tu nuevo juego "${juego2.titulo}" !`)
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego2.titulo}" ah sido añadido a su bibloteca<`
             bibloteca.push(juego2.titulo) 
             break;
         case 3:
             comprarJuego = juego3.titulo
-            alert(`¡Felecidades tu juego "${juego3.titulo}"!`)
+            alert(`¡Felecidades por tu nuevo juego "${juego3.titulo}" !`)
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego3.titulo}" ah sido añadido a su bibloteca`
             bibloteca.push(juego3.titulo) 
             break;
         case 4:
             comprarJuego = juego4.titulo
-            alert(`¡Felecidades tu juego "${juego4.titulo}"!`)
+            alert(`¡Felecidades por tu nuevo juego "${juego4.titulo}" !`)
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego4.titulo}" ah sido añadido a su bibloteca`
             bibloteca.push(juego4.titulo) 
             break;
         case 5:
             comprarJuego = juego5.titulo
-            alert(`¡Felecidades tu juego "${juego5.titulo}"`)
+            alert(`¡Felecidades por tu nuevo juego "${juego5.titulo}" !`)
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego5.titulo}" ah sido añadido a su bibloteca`
             bibloteca.push(juego5.titulo) 
             break;
         case 6:
             comprarJuego = juego6.titulo
-            alert(`¡Felecidades tu juego "${juego6.titulo}"`)
+            alert(`¡Felecidades por tu nuevo juego "${juego6.titulo}" !`)
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego6.titulo}" ah sido añadido a su bibloteca`
             bibloteca.push(juego6.titulo) 
             break;
         case 7:
             comprarJuego = juego7.titulo
-            alert(`¡Felecidades tu juego "${juego7.titulo}"`)
+            alert(`¡Felecidades por tu nuevo"${juego7.titulo}" !`)
             finalizarCompraTexto.innerHTML= `Su nuevo juego "${juego7.titulo}" ah sido añadido a su bibloteca`
             bibloteca.push(juego7.titulo) 
             break;
